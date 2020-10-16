@@ -48,6 +48,6 @@ public class SearchController {
         model.addAttribute("column", columnChoices);
 
 
-        return "search-results";
+        return "search";
     }
 }
